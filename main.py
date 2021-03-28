@@ -16,11 +16,11 @@ def main():
     # in status relates to "Uranus" in sol. The second "True" to "Mercury", etc.
     
     print()
-    print("The closest by nearest distance is:", closest(sol))
-    print("The closest by furthest distance is:", closest(sol, False))
-    print("The furthest by nearest distance is:", furthest(sol, False))
-    print("The furthest by furthest distance is:", furthest(sol))
-    print("The list of all planets is:", planets_list(sol, status))
+    print("The closest by nearest distance is:", fn.closest(sol))
+    print("The closest by furthest distance is:", fn.closest(sol, False))
+    print("The furthest by nearest distance is:", fn.furthest(sol, False))
+    print("The furthest by furthest distance is:", fn.furthest(sol))
+    print("The list of all planets is:", fn.planets_list(sol, status))
     print()
     
 main()
