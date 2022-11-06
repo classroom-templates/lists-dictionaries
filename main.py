@@ -36,7 +36,7 @@ def main():
     print("The nearest planet to the sun by minimum distance is: ", fn.find_nearest(planets, fn.MIN))
     print("The nearest planet to the sun by maximum distance is: ", fn.find_nearest(planets, fn.MAX))
     # this next call is purposfully in error, but it will still work if find_nearest is done correctly
-    print("The nearest planet to the sun by average distance is: ", fn.find_nearest(planets), 10)
+    print("The nearest planet to the sun by average distance is: ", fn.find_nearest(planets,10))
     print()
     print("The furthest planet from the sun by minimum distance is: ", fn.find_furthest(planets, fn.MIN))
     print("The furthest planet from the sun by maximum distance is: ", fn.find_furthest(planets, fn.MAX))
